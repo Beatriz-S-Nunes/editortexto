@@ -2,7 +2,6 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog
 from tkinter.font import Font
 
-
 class BaseEditor:
     def __init__(self, root):
         self._root = root
